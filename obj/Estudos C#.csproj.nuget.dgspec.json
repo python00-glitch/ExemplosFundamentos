@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\rosel\\OneDrive\\Documentos\\Estudos DIO\\Estudos C# - DIO\\ExemplosFundamentos\\Estudos C#.csproj": {}
+    "c:\\Users\\rosel\\OneDrive\\Documentos\\Estudos DIO\\Estudos C# - DIO\\ExemplosFundamentos - Aula 1\\Estudos C#.csproj": {}
   },
   "projects": {
-    "c:\\Users\\rosel\\OneDrive\\Documentos\\Estudos DIO\\Estudos C# - DIO\\ExemplosFundamentos\\Estudos C#.csproj": {
+    "c:\\Users\\rosel\\OneDrive\\Documentos\\Estudos DIO\\Estudos C# - DIO\\ExemplosFundamentos - Aula 1\\Estudos C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\rosel\\OneDrive\\Documentos\\Estudos DIO\\Estudos C# - DIO\\ExemplosFundamentos\\Estudos C#.csproj",
+        "projectUniqueName": "c:\\Users\\rosel\\OneDrive\\Documentos\\Estudos DIO\\Estudos C# - DIO\\ExemplosFundamentos - Aula 1\\Estudos C#.csproj",
         "projectName": "Estudos C#",
-        "projectPath": "c:\\Users\\rosel\\OneDrive\\Documentos\\Estudos DIO\\Estudos C# - DIO\\ExemplosFundamentos\\Estudos C#.csproj",
+        "projectPath": "c:\\Users\\rosel\\OneDrive\\Documentos\\Estudos DIO\\Estudos C# - DIO\\ExemplosFundamentos - Aula 1\\Estudos C#.csproj",
         "packagesPath": "C:\\Users\\rosel\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\rosel\\OneDrive\\Documentos\\Estudos DIO\\Estudos C# - DIO\\ExemplosFundamentos\\obj\\",
+        "outputPath": "c:\\Users\\rosel\\OneDrive\\Documentos\\Estudos DIO\\Estudos C# - DIO\\ExemplosFundamentos - Aula 1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

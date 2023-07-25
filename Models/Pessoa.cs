@@ -21,7 +21,7 @@ namespace ExemplosFundamentos.Common.Models
         public void Apresentar()
         {
             Console.WriteLine($"Olá, meu nome é {Nome}, e tenho {Idade} anos. Meu e-mail é {Email}");
-            Console.WriteLine($"Meu endereço é {Endereço}");
+            Console.WriteLine($"Eu moro em {Endereço}");
         }
     }
 }

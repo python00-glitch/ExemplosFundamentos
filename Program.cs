@@ -107,40 +107,39 @@ using ExemplosFundamentos.Common.Models;
 
 // ----------------------------------------------------------------------------------------------------------------------------- //
 
-// // Montando um menu:
-// string? opcao;
-// bool mostrarMenu = true;
-// Console.WriteLine($"Bem-vindos ao menu feito em C#");
+    // Montando um menu:
+    string? opcao;
+    bool mostrarMenu = true;
+    Console.WriteLine($"Bem-vindos ao menu feito em C#");
 
-// while(mostrarMenu)
-// {
-//     Console.WriteLine("1- Curso de Java");
-//     Console.WriteLine("2- Curso de .NET");
-//     Console.WriteLine("3- Curso de Android Studio");
-//     Console.WriteLine("4- Curso de Unity 3D");
-//     Console.WriteLine("5- Encerrar");
-//     opcao = Console.ReadLine();
-//     switch (opcao)
-//     {
-//         case "1": 
-//             Console.WriteLine("CLIQUE NO LINK: https://web.dio.me/track/formacao-java-developer");
-//             break;
-//         case "2": 
-//             Console.WriteLine("CLIQUE NO LINK: https://web.dio.me/track/formacao-dotnet-developer");
-//             break;
-//         case "3": 
-//             Console.WriteLine("CLIQUE NO LINK: https://web.dio.me/track/formacao-android-developer");
-//             break;
-//         case "4": 
-//             Console.WriteLine("CLIQUE NO LINK: https://web.dio.me/track/formacao-unity-3d-game-developer");
-//             break;
-//         case "5":
-//             Console.WriteLine("Encerrando");
-//             mostrarMenu = false;
-//             break;
-//     }
-// }
-
+while(mostrarMenu)
+{
+    Console.WriteLine("1- Curso de Java");
+    Console.WriteLine("2- Curso de .NET");
+    Console.WriteLine("3- Curso de Android Studio");
+    Console.WriteLine("4- Curso de Unity 3D");
+    Console.WriteLine("5- Encerrar");
+    opcao = Console.ReadLine();
+    switch (opcao)
+    {
+        case "1": 
+            Console.WriteLine("CLIQUE NO LINK: https://web.dio.me/track/formacao-java-developer");
+            break;
+        case "2": 
+            Console.WriteLine("CLIQUE NO LINK: https://web.dio.me/track/formacao-dotnet-developer");
+            break;
+        case "3": 
+            Console.WriteLine("CLIQUE NO LINK: https://web.dio.me/track/formacao-android-developer");
+            break;
+        case "4": 
+            Console.WriteLine("CLIQUE NO LINK: https://web.dio.me/track/formacao-unity-3d-game-developer");
+            break;
+        case "5":
+            Console.WriteLine("Encerrando");
+            mostrarMenu = false;
+            break;
+    }
+}
 
 // ----------------------------------------------------------------------------------------------------------------------------- //
 
@@ -379,10 +378,14 @@ using ExemplosFundamentos.Common.Models;
 // Pessoa p = new();
 
 // // Atribui o nome e a idade da pessoa:
-// p.Nome = "Ricardo";
-// p.Idade = 21;
-// p.Email = "ricardo@gmail.com";
-// p.Endereço = "Sarzedo - MG, Brazil.";
+// Console.WriteLine("Digite seu nome: ");
+// p.Nome = Console.ReadLine();
+// Console.WriteLine("Digite sua idade: ");
+// p.Idade = int.Parse(Console.ReadLine());
+// Console.WriteLine("Digite seu e-mail: ");
+// p.Email = Console.ReadLine();
+// Console.WriteLine("Digite seu endereço: ");
+// p.Endereço = Console.ReadLine();
 
 // // Mostra a apresentação da classe 'Pessoa':
 // p.Apresentar();
